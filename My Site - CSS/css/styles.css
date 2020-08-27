@@ -1,0 +1,151 @@
+/*
+#e63946
+#f1faee
+#a8dadc
+#457b9d
+#1d3557
+*/
+body{
+    margin: 0px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+.top-container{
+    padding-top: 100px;
+    position: relative;
+    background-color: #caf6f8;
+    
+
+}
+.profile-pic{
+    width: 75%;
+}
+
+.profile{
+    width: 25%;
+    margin: 100px auto;
+}
+
+.middle-container{
+    background-color: #edfeff;
+    padding:30px;
+}
+.bottom-container{
+    background-color: #457b9d;
+    padding: 30px 0 20px 0;
+}
+
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    border-color: grey;
+    width: 5%;
+}
+
+h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 5.625rem;
+    margin:50px;
+    color: #66BFBF;
+}
+h2{
+    font-family: 'Merriweather', serif;
+    font-size:2.5rem;
+    margin: 50px auto 20px auto ;
+    color: #66BFBF;
+}
+h3{
+    font-family: 'Merriweather', serif;
+    color: #11999E;
+}
+h4{
+    font-family: 'Merriweather', serif;
+    
+}
+h5{
+    font-family: 'Merriweather', serif;
+}
+h6{
+    font-family: 'Merriweather', serif;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    color: #66BFBF;
+    margin:20px 10px;
+    text-decoration:none;
+}
+a:hover{
+    color:#1d3557;
+}
+
+.copyright{
+    font-size: 0.75rem;
+    color: #f1faee;
+    font-family: "Merriweather", serif;
+}
+.subtitle{
+    font-weight: normal;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top:50px;
+    
+}
+
+.skill-row{
+    width: 50%;
+    margin:100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.skill-img{
+    width: 25%;
+    float:left;
+    margin-right:30px;
+}
+
+/*.profile{
+    height:300px;
+    width:300px;
+} */
+.bottom-cloud{
+    position: absolute;
+    left:300px;
+    bottom: 300px;
+}
+
+.contact-button {
+    margin-top:30px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #f1faee;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 10px;
+    background-color: #457b9d;
+    box-shadow: 3px 2px 30px 1px #457b9d;
+    -webkit-box-shadow: 3px 2px 30px 1px #457b9d;
+    -moz-box-shadow: 3px 2px 30px 1px #457b9d;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .contact-button:hover {
+    background: #1d3557;
+    color:#f1faee;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
